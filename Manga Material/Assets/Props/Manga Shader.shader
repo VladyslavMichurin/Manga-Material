@@ -1,4 +1,4 @@
-Shader "_MyShaders/_FunStuff/01)Manga Shader Attempt"
+Shader "_MyShaders/Manga Shader"
 {
     Properties
     {
