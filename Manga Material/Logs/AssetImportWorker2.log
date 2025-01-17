@@ -1,0 +1,388 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 16294 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\programs\Unity Editors\2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/projects/Git/Manga-Material/Manga Material
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+54302
+Successfully changed project path to: D:/projects/Git/Manga-Material/Manga Material
+D:/projects/Git/Manga-Material/Manga Material
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [16636] Host "[IP] 192.168.2.221 [Port] 0 [Flags] 2 [Guid] 2300675378 [EditorId] 2300675378 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J5TC0EM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [16636] Host "[IP] 192.168.2.221 [Port] 0 [Flags] 2 [Guid] 2300675378 [EditorId] 2300675378 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J5TC0EM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 5.59 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path D:/programs/Unity Editors/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/projects/Git/Manga-Material/Manga Material/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
+    Vendor:   NVIDIA
+    VRAM:     3935 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'D:/programs/Unity Editors/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/programs/Unity Editors/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/programs/Unity Editors/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56692
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/programs/Unity Editors/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: D:/programs/Unity Editors/2022.3.7f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Registered in 0.004622 seconds.
+- Loaded All Assemblies, in  0.323 seconds
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.245 seconds
+Domain Reload Profiling: 568ms
+	BeginReloadAssembly (100ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (130ms)
+				TypeCache.ScanAssembly (117ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (245ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (186ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (120ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\projects\Git\Manga-Material\Manga Material\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\projects\Git\Manga-Material\Manga Material\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.546 seconds
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.516 seconds
+Domain Reload Profiling: 1062ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (340ms)
+		LoadAssemblies (255ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (128ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (516ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (364ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3529.
+Memory consumption went from 114.2 MB to 114.1 MB.
+Total: 2.605000 ms (FindLiveObjects: 0.229300 ms CreateObjectMapping: 0.205400 ms MarkObjects: 2.091500 ms  DeleteObjects: 0.078000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 28578.020701 seconds.
+  path: Assets/Props/Materials/Manga Shader.mat
+  artifactKey: Guid(86e6d1ba6a7b46848976f1a8f5544d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Materials/Manga Shader.mat using Guid(86e6d1ba6a7b46848976f1a8f5544d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89dfaa5b393a17ec14c227701b9f6cce') in 0.096103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 18.044817 seconds.
+  path: Assets/Props/Textures
+  artifactKey: Guid(52cb5a19fbc61dd42a2919fd6cd93070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Textures using Guid(52cb5a19fbc61dd42a2919fd6cd93070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c70c8dd3b915e50b9ac5e2f5450c6433') in 0.000479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 64.160279 seconds.
+  path: Assets/Props/Materials/Manga Shader.mat
+  artifactKey: Guid(86e6d1ba6a7b46848976f1a8f5544d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Materials/Manga Shader.mat using Guid(86e6d1ba6a7b46848976f1a8f5544d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0d4d1a82472ea8196f183d808394a64') in 0.015267 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 55.040695 seconds.
+  path: Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO
+  artifactKey: Guid(d3092015203105f4082cf8c4a87d7488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO using Guid(d3092015203105f4082cf8c4a87d7488) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2d6f1c8550177b21f34e22c508b991') in 0.000631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.070228 seconds.
+  path: Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/prev.png
+  artifactKey: Guid(90697fece2b063d439cb5f44e45bd443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/prev.png using Guid(90697fece2b063d439cb5f44e45bd443) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60bc5300ed17b78e2a87920afb4276bb') in 0.029930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/T_CP_050_00_Face_C.tga
+  artifactKey: Guid(1f146a93c0fd9e749914e64d27aaac53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/T_CP_050_00_Face_C.tga using Guid(1f146a93c0fd9e749914e64d27aaac53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0282acb82fa78eb8b5012ecc06d64ed4') in 0.021742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/T_CP_050_00_Hair_C.tga
+  artifactKey: Guid(da50a0d37fbb1084a8405d746e0a2dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/T_CP_050_00_Hair_C.tga using Guid(da50a0d37fbb1084a8405d746e0a2dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f605db69dc878763598f45aae1574a9') in 0.021659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/T_CP_050_00_Mask_C.tga
+  artifactKey: Guid(d975c507e9253b84b94fc98f66067e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/T_CP_050_00_Mask_C.tga using Guid(d975c507e9253b84b94fc98f66067e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47ed55f9eaa1ddf4b0d8e8f6f64e7bb') in 0.017033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/T_CP_050_10_Body_C.tga
+  artifactKey: Guid(05b302447f0815f46bfc1c3d583b1531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/T_CP_050_10_Body_C.tga using Guid(05b302447f0815f46bfc1c3d583b1531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0ffe0e1290b9c1c6dfc16fd8184783e') in 0.017054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/T_CP_050_00_Face_N.tga
+  artifactKey: Guid(34f55cf6786a7624aa795a7c68cf42a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/T_CP_050_00_Face_N.tga using Guid(34f55cf6786a7624aa795a7c68cf42a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b77fda504730869a285e7014adafd3') in 0.023883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/T_CP_050_00_Mask_N.tga
+  artifactKey: Guid(be4d781110db07c489c9e3616fa4d3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/T_CP_050_00_Mask_N.tga using Guid(be4d781110db07c489c9e3616fa4d3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd27ec58238fb8ccc8499de834cd50a7c') in 0.018024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/T_CP_050_00_Eye_C.tga
+  artifactKey: Guid(96c6a4dd1e3281e45b060fa5cb8738bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/T_CP_050_00_Eye_C.tga using Guid(96c6a4dd1e3281e45b060fa5cb8738bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38cb8f77daaae9913a06f25c0fcab33') in 0.016319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/T_CP_050_00_Body_C.tga
+  artifactKey: Guid(f4497f8b23edf4d4d865826a8d50caa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/T_CP_050_00_Body_C.tga using Guid(f4497f8b23edf4d4d865826a8d50caa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16bfbf065b4b6fe76a69b30cd0e65587') in 0.016629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.763893 seconds.
+  path: Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/default.pose
+  artifactKey: Guid(68f341782912fe64aa333151be5f2ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/default.pose using Guid(68f341782912fe64aa333151be5f2ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2d351c39ab85fa8d63966c78881bc9') in 0.000763 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 8.569270 seconds.
+  path: Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/SK_CP_050_00.fbx
+  artifactKey: Guid(0b3b6512073a74f4fba148e60fd7bd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/SK_CP_050_00.fbx using Guid(0b3b6512073a74f4fba148e60fd7bd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a42733e6a5b4247cdd4fa8fa92deab3') in 0.277272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 478
+========================================================================
+Received Import Request.
+  Time since last request: 8.435721 seconds.
+  path: Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/SK_CP_050_00.fbx
+  artifactKey: Guid(0b3b6512073a74f4fba148e60fd7bd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/SK_CP_050_00.fbx using Guid(0b3b6512073a74f4fba148e60fd7bd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '815f069a71d0e1987925c34f20b05fc6') in 0.031071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 475
+========================================================================
+Received Import Request.
+  Time since last request: 15.005158 seconds.
+  path: Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/SK_CP_050_00.fbx
+  artifactKey: Guid(0b3b6512073a74f4fba148e60fd7bd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/JUJUTSU KAISEN CURSED CLASH - SATORU GOJO/SK_CP_050_00.fbx using Guid(0b3b6512073a74f4fba148e60fd7bd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4495c54483101c0b3af8fdcdd1298af') in 0.091555 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 474
+========================================================================
+Received Import Request.
+  Time since last request: 14.502548 seconds.
+  path: Assets/Props/Textures/Gojo
+  artifactKey: Guid(bf4208e395e47cf45a4571efd46db1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Textures/Gojo using Guid(bf4208e395e47cf45a4571efd46db1e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55c9a4c0f7f06fe5dac7a03b5b71089') in 0.000476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.652164 seconds.
+  path: Assets/Props/Gojo/Mats/BAND.mat
+  artifactKey: Guid(3b90137489fcff5419ba45dfbe9e4c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/Mats/BAND.mat using Guid(3b90137489fcff5419ba45dfbe9e4c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd3ce601821077e698146efa96b031d') in 0.008661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Props/Gojo/Mats/LASHES.mat
+  artifactKey: Guid(7d8f191783f9fa84aaabd1e961fce309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/Mats/LASHES.mat using Guid(7d8f191783f9fa84aaabd1e961fce309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab7d48d8a401fbc25e7eabc87f7183a1') in 0.014001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Props/Gojo/Mats/IRIS.mat
+  artifactKey: Guid(ea9f3d8a95b27a44d88510b3a331528a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/Mats/IRIS.mat using Guid(ea9f3d8a95b27a44d88510b3a331528a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a7bb9ea2065272638ff3876157048b') in 0.014255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Props/Gojo/Mats/HAIR 2.mat
+  artifactKey: Guid(158f8ad50c77d4945944582cea0da9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/Mats/HAIR 2.mat using Guid(158f8ad50c77d4945944582cea0da9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da49145190e70171353580d46ecb833a') in 0.009154 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Props/Gojo/Mats/FACE.mat
+  artifactKey: Guid(321f375a7168bde46a5c4b240899a1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/Mats/FACE.mat using Guid(321f375a7168bde46a5c4b240899a1fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105f94abbe880b51d1f23013b8c91d2a') in 0.006804 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Props/Gojo/Mats/HANDS.mat
+  artifactKey: Guid(1ee50ea6025ac9c42be622b9b585673a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Gojo/Mats/HANDS.mat using Guid(1ee50ea6025ac9c42be622b9b585673a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08d76311021cf8463edb531ed0b7ae0') in 0.005900 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 28.121285 seconds.
+  path: Assets/Props/Materials/Gojo
+  artifactKey: Guid(1ddab459fe3452248939ef70d7344c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Materials/Gojo using Guid(1ddab459fe3452248939ef70d7344c0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f80fdd6acf866dd1c02ad8a8dc385764') in 0.000532 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.413302 seconds.
+  path: Assets/Props/Prefabs
+  artifactKey: Guid(7e5ff9636308b294598887db8b7fe1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Prefabs using Guid(7e5ff9636308b294598887db8b7fe1c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '579ebf02da35263f1f36c3f76a59721c') in 0.000440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
