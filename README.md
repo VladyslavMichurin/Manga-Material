@@ -6,7 +6,7 @@ This is a material that aims to make 3d objects look as if they were drawn in ma
 ![gojo sealed](./Examples/Gojo-in-prison-realm(dark-skeleton-version).jpg)
 ![gojo sealed](./Examples/Gojo-in-prison-realm(light-skeleton-version).jpg)
 
-please note that the quality depend on provided model and these examples were made with just the ones i found randomly on the internet for free
+please note that the quality dependz on the models and these examples were made with just the ones i found for free on the internet 
 
 # Gojo model rotating with and without normal map for clothes 
 ![gojo rotates](./Examples/Gojo-rotates(with-normal-map).gif)
