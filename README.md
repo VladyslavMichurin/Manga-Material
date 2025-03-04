@@ -1,4 +1,4 @@
 # Manga-Material
 Test
 
-![gojo sealed](./Examples/Skulls.gif)
+![gojo sealed](./Examples/Gojo in prison realm (reference).jpg)
