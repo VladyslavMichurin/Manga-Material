@@ -15,7 +15,7 @@ D:/projects/Git/Manga-Material/Manga Material
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54491
+54473
 Successfully changed project path to: D:/projects/Git/Manga-Material/Manga Material
 D:/projects/Git/Manga-Material/Manga Material
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ D:/projects/Git/Manga-Material/Manga Material
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [15276] Host "[IP] 192.168.2.221 [Port] 0 [Flags] 2 [Guid] 3235882257 [EditorId] 3235882257 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J5TC0EM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [18204] Host "[IP] 192.168.2.221 [Port] 0 [Flags] 2 [Guid] 1671440429 [EditorId] 1671440429 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J5TC0EM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [15276] Host "[IP] 192.168.2.221 [Port] 0 [Flags] 2 [Guid] 3235882257 [EditorId] 3235882257 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J5TC0EM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18204] Host "[IP] 192.168.2.221 [Port] 0 [Flags] 2 [Guid] 1671440429 [EditorId] 1671440429 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J5TC0EM) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 5.20 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path D:/programs/Unity Editors/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,46 +69,46 @@ Initialize mono
 Mono path[0] = 'D:/programs/Unity Editors/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'D:/programs/Unity Editors/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/programs/Unity Editors/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/programs/Unity Editors/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: D:/programs/Unity Editors/2022.3.7f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.004619 seconds.
-- Loaded All Assemblies, in  0.346 seconds
+Registered in 0.004560 seconds.
+- Loaded All Assemblies, in  0.625 seconds
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.269 seconds
-Domain Reload Profiling: 615ms
-	BeginReloadAssembly (106ms)
+- Finished resetting the current domain, in  0.256 seconds
+Domain Reload Profiling: 882ms
+	BeginReloadAssembly (389ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
+	RebuildCommonClasses (33ms)
 	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (49ms)
-	LoadAllAssembliesAndSetupDomain (145ms)
-		LoadAssemblies (106ms)
+	LoadAllAssembliesAndSetupDomain (143ms)
+		LoadAssemblies (388ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (143ms)
-			TypeCache.Refresh (142ms)
-				TypeCache.ScanAssembly (128ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (127ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (270ms)
+	FinalizeReload (257ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (203ms)
+		SetupLoadedEditorAssemblies (195ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
+			InitializePlatformSupportModulesInManaged (8ms)
 			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (135ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -118,53 +118,82 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\projects\Git\Manga-Material\Manga Material\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\projects\Git\Manga-Material\Manga Material\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.674 seconds
-Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.682 seconds
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.550 seconds
-Domain Reload Profiling: 1224ms
-	BeginReloadAssembly (145ms)
+- Finished resetting the current domain, in  0.573 seconds
+Domain Reload Profiling: 1255ms
+	BeginReloadAssembly (148ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (32ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (34ms)
 	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (452ms)
-		LoadAssemblies (284ms)
+	LoadAllAssembliesAndSetupDomain (454ms)
+		LoadAssemblies (362ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (254ms)
-			TypeCache.Refresh (235ms)
-				TypeCache.ScanAssembly (215ms)
+		AnalyzeDomain (176ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (140ms)
 			ScanForSourceGeneratedMonoScriptInfo (14ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (550ms)
+	FinalizeReload (573ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (395ms)
+		SetupLoadedEditorAssemblies (423ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (93ms)
-			ProcessInitializeOnLoadAttributes (263ms)
-			ProcessInitializeOnLoadMethodAttributes (26ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (11ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3529.
-Memory consumption went from 114.1 MB to 114.1 MB.
-Total: 3.513800 ms (FindLiveObjects: 0.266400 ms CreateObjectMapping: 0.272700 ms MarkObjects: 2.869400 ms  DeleteObjects: 0.104300 ms)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3529.
+Memory consumption went from 114.2 MB to 114.2 MB.
+Total: 2.712800 ms (FindLiveObjects: 0.236800 ms CreateObjectMapping: 0.224500 ms MarkObjects: 2.163400 ms  DeleteObjects: 0.087300 ms)
 
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 363414.280701 seconds.
+  path: Assets/Props/Manga Shader.shader
+  artifactKey: Guid(7a6a34aa15065c04d848880486f8aee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Manga Shader.shader using Guid(7a6a34aa15065c04d848880486f8aee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5765cf6a5ebfd4f78362370a688d1de6') in 0.393954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (0.8 KB). Loaded Objects now: 3530.
+Memory consumption went from 65.2 MB to 65.2 MB.
+Total: 4.205100 ms (FindLiveObjects: 0.293100 ms CreateObjectMapping: 0.297000 ms MarkObjects: 3.585700 ms  DeleteObjects: 0.028000 ms)
+
+Prepare: number of updated asset objects reloaded= 1
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -180,204 +209,391 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 29112.769589 seconds.
-  path: Assets/Props/Prefabs/Skull_Blinn-Phong.obj
-  artifactKey: Guid(489c9166d9acd2446a70518af2a211fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Prefabs/Skull_Blinn-Phong.obj using Guid(489c9166d9acd2446a70518af2a211fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500e139828429278e76589cf4b5690e5') in 0.152909 seconds
+  Time since last request: 222.043066 seconds.
+  path: Assets/Props/MangaShader_Base.shader
+  artifactKey: Guid(7a6a34aa15065c04d848880486f8aee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/MangaShader_Base.shader using Guid(7a6a34aa15065c04d848880486f8aee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cb4ea34e4beb917d5351b1380942ca') in 0.001218 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 22.322907 seconds.
-  path: Assets/Props/Prefabs/Skull_Blinn-Phong.obj
-  artifactKey: Guid(489c9166d9acd2446a70518af2a211fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Prefabs/Skull_Blinn-Phong.obj using Guid(489c9166d9acd2446a70518af2a211fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7b1040f594322d504cf43fa33514852') in 0.075416 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 59.843932 seconds.
-  path: Assets/Props/Prefabs/Skull_Blinn-Phong.obj
-  artifactKey: Guid(489c9166d9acd2446a70518af2a211fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Prefabs/Skull_Blinn-Phong.obj using Guid(489c9166d9acd2446a70518af2a211fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '273beb6f55dd3191be6afe57ece104b0') in 0.043019 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 6.191264 seconds.
-  path: Assets/Props/Prefabs/Skull.obj
-  artifactKey: Guid(489c9166d9acd2446a70518af2a211fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Prefabs/Skull.obj using Guid(489c9166d9acd2446a70518af2a211fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c008e8e3385d7a04898f47a72460e49c') in 0.087940 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 119.181483 seconds.
-  path: Assets/Props/Prefabs/skull.obj
-  artifactKey: Guid(ba35933ea22f744409d27a45226e8433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Prefabs/skull.obj using Guid(ba35933ea22f744409d27a45226e8433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44300a84225794676021b4f455871eec') in 0.076063 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 24
-========================================================================
-Received Import Request.
-  Time since last request: 12.823481 seconds.
-  path: Assets/Props/Prefabs/skull.obj
-  artifactKey: Guid(ba35933ea22f744409d27a45226e8433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Prefabs/skull.obj using Guid(ba35933ea22f744409d27a45226e8433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3636cb76920ef20edceae806ff06f644') in 0.075511 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 283.514784 seconds.
-  path: Assets/Props/Prefabs/skull.obj
-  artifactKey: Guid(ba35933ea22f744409d27a45226e8433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Prefabs/skull.obj using Guid(ba35933ea22f744409d27a45226e8433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '837588793b9b749a0b72b999019d996f') in 0.072532 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 42.917408 seconds.
-  path: Assets/Props/Prefabs/skull.obj
-  artifactKey: Guid(ba35933ea22f744409d27a45226e8433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Prefabs/skull.obj using Guid(ba35933ea22f744409d27a45226e8433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a670bfc7016ea42d3becf35fafe02eb') in 0.130733 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 78.198025 seconds.
-  path: Assets/Props/Materials/Manga Mat.mat
-  artifactKey: Guid(73a0d2685c7c0ee49acb30a7a9a6c840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Materials/Manga Mat.mat using Guid(73a0d2685c7c0ee49acb30a7a9a6c840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9573fc3a30d8ea335519248f83c52c') in 0.024208 seconds
+  Time since last request: 134.212429 seconds.
+  path: Assets/Props/Simple Manga Shader.shader
+  artifactKey: Guid(7a6a34aa15065c04d848880486f8aee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Simple Manga Shader.shader using Guid(7a6a34aa15065c04d848880486f8aee2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2598f14e725375c71f9087f7fdf7f8') in 0.000859 seconds
 Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 1
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 32.499597 seconds.
+  Time since last request: 53.588635 seconds.
+  path: Assets/Props/Prefabs/MolniaAnimated.fbx
+  artifactKey: Guid(96b0c8cbc0d00a64e8a49be52c2b20bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Prefabs/MolniaAnimated.fbx using Guid(96b0c8cbc0d00a64e8a49be52c2b20bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990ce169339046ebc28d7d7732610f8c') in 0.341720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 111
+========================================================================
+Received Import Request.
+  Time since last request: 2.983633 seconds.
+  path: Assets/Props/Materials/Car Manga Mat.mat
+  artifactKey: Guid(73a0d2685c7c0ee49acb30a7a9a6c840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Materials/Car Manga Mat.mat using Guid(73a0d2685c7c0ee49acb30a7a9a6c840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc0e9eb6e3037360f75770673911382') in 0.032570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.635169 seconds.
   path: Assets/Props/Materials/Gojo/BAND.mat
   artifactKey: Guid(3b90137489fcff5419ba45dfbe9e4c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Materials/Gojo/BAND.mat using Guid(3b90137489fcff5419ba45dfbe9e4c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5794d2e7907d2696e4017cb2926b37a9') in 0.078065 seconds
-Number of updated asset objects reloaded before import = 1
+Start importing Assets/Props/Materials/Gojo/BAND.mat using Guid(3b90137489fcff5419ba45dfbe9e4c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b20871f3e9f2fa135cc581439034c38') in 0.016112 seconds
+Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 4
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
+  Time since last request: 0.000020 seconds.
   path: Assets/Props/Materials/Gojo/LASHES.mat
   artifactKey: Guid(7d8f191783f9fa84aaabd1e961fce309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Materials/Gojo/LASHES.mat using Guid(7d8f191783f9fa84aaabd1e961fce309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13f4a731e2b88c5d5efc8ac45261c54') in 0.017860 seconds
+Start importing Assets/Props/Materials/Gojo/LASHES.mat using Guid(7d8f191783f9fa84aaabd1e961fce309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b363c78c3f3e967cc173d1f828733e5') in 0.014704 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
+  Time since last request: 0.000013 seconds.
   path: Assets/Props/Materials/Gojo/EYES.mat
   artifactKey: Guid(dbff7e64b399aaa4392f7aa18e9da670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Materials/Gojo/EYES.mat using Guid(dbff7e64b399aaa4392f7aa18e9da670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a13dccf68653661cc8339c9e5ddfd8') in 0.013095 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Props/Materials/Gojo/EYEBROWS.mat
-  artifactKey: Guid(c496691110e38244cbf22c88b05e2b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Materials/Gojo/EYEBROWS.mat using Guid(c496691110e38244cbf22c88b05e2b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee438ce8e3f818342cfe20d86f6f2132') in 0.013299 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Props/Materials/Gojo/IRIS.mat
-  artifactKey: Guid(ea9f3d8a95b27a44d88510b3a331528a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Materials/Gojo/IRIS.mat using Guid(ea9f3d8a95b27a44d88510b3a331528a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70159132251b1a7d255b9976e9bf0597') in 0.023085 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Props/Materials/Gojo/HAIR 2.mat
-  artifactKey: Guid(158f8ad50c77d4945944582cea0da9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Materials/Gojo/HAIR 2.mat using Guid(158f8ad50c77d4945944582cea0da9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70964a82f0bac961bfd117d447a60949') in 0.028320 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Props/Materials/Gojo/HAIR 1 BLIND.mat
-  artifactKey: Guid(d4abdeeb8d9c44c45bfc9c73edd07ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Materials/Gojo/HAIR 1 BLIND.mat using Guid(d4abdeeb8d9c44c45bfc9c73edd07ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61f4f3d0599bef341545d2ce7ddaaa6') in 0.007358 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Props/Materials/Gojo/TRANSPARENT HEAD.mat
-  artifactKey: Guid(6b486becdfd1d6f41a29f17aba15cbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Materials/Gojo/TRANSPARENT HEAD.mat using Guid(6b486becdfd1d6f41a29f17aba15cbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9369d4ec008027189ae967669097cf5f') in 0.006294 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Props/Materials/Gojo/HANDS.mat
-  artifactKey: Guid(1ee50ea6025ac9c42be622b9b585673a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Materials/Gojo/HANDS.mat using Guid(1ee50ea6025ac9c42be622b9b585673a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddd1002cfe01a658a47432576b5faf8') in 0.007438 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 3.782533 seconds.
-  path: Assets/Props/Prefabs/skull.obj
-  artifactKey: Guid(ba35933ea22f744409d27a45226e8433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Prefabs/skull.obj using Guid(ba35933ea22f744409d27a45226e8433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5ca5a5d0cee152a7680b8e1d5fb2ca') in 0.084478 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 26
-========================================================================
-Received Import Request.
-  Time since last request: 300.790826 seconds.
-  path: Assets/Props/Materials/Gojo/CLOTHES.mat
-  artifactKey: Guid(c35b75d0fb258064199aca288a065872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Materials/Gojo/CLOTHES.mat using Guid(c35b75d0fb258064199aca288a065872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1175af792cb014e672942f343fe61586') in 0.034056 seconds
-Number of updated asset objects reloaded before import = 1
-Number of asset objects unloaded after import = 4
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Props/Materials/Gojo/LASHES.mat
-  artifactKey: Guid(7d8f191783f9fa84aaabd1e961fce309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Materials/Gojo/LASHES.mat using Guid(7d8f191783f9fa84aaabd1e961fce309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987e8acbb1fb978813fe392b5abed7fe') in 0.016851 seconds
+Start importing Assets/Props/Materials/Gojo/EYES.mat using Guid(dbff7e64b399aaa4392f7aa18e9da670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4e01603d1d973f62c058b5fcf447969') in 0.006805 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/Props/Materials/Gojo/EYES.mat
-  artifactKey: Guid(dbff7e64b399aaa4392f7aa18e9da670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Materials/Gojo/EYES.mat using Guid(dbff7e64b399aaa4392f7aa18e9da670) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9cc9f3bf939536f5ea09f774ce42d4b') in 0.011731 seconds
+  path: Assets/Props/Materials/Gojo/IRIS.mat
+  artifactKey: Guid(ea9f3d8a95b27a44d88510b3a331528a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Materials/Gojo/IRIS.mat using Guid(ea9f3d8a95b27a44d88510b3a331528a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b87075dfb95be50cfa63107215b677c') in 0.008166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Props/Materials/Gojo/HAIR 1 BLIND.mat
+  artifactKey: Guid(d4abdeeb8d9c44c45bfc9c73edd07ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Materials/Gojo/HAIR 1 BLIND.mat using Guid(d4abdeeb8d9c44c45bfc9c73edd07ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59799c1b6cbf206451d6a30b42491aca') in 0.017657 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/Props/Materials/Gojo/EYEBROWS.mat
-  artifactKey: Guid(c496691110e38244cbf22c88b05e2b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Materials/Gojo/EYEBROWS.mat using Guid(c496691110e38244cbf22c88b05e2b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377c4044f0719976d9ee8e019f100f3c') in 0.019850 seconds
+  path: Assets/Props/Materials/Gojo/TRANSPARENT HEAD.mat
+  artifactKey: Guid(6b486becdfd1d6f41a29f17aba15cbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Materials/Gojo/TRANSPARENT HEAD.mat using Guid(6b486becdfd1d6f41a29f17aba15cbc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37d194aea2a0c42bb41bb4f440a82d66') in 0.017436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Props/Materials/Gojo/HANDS.mat
+  artifactKey: Guid(1ee50ea6025ac9c42be622b9b585673a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Materials/Gojo/HANDS.mat using Guid(1ee50ea6025ac9c42be622b9b585673a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43f33be6b1f88d497c80fa325c7ce23f') in 0.015470 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
+  Time since last request: 258.024416 seconds.
+  path: Assets/Props/Simple Manga Shader.shader
+  artifactKey: Guid(7a6a34aa15065c04d848880486f8aee2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Simple Manga Shader.shader using Guid(7a6a34aa15065c04d848880486f8aee2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '431d876a2c4028103be37933b43755fd') in 0.150952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Props/Prefabs/MolniaAnimated.fbx
+  artifactKey: Guid(96b0c8cbc0d00a64e8a49be52c2b20bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Prefabs/MolniaAnimated.fbx using Guid(96b0c8cbc0d00a64e8a49be52c2b20bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dc7d941d4fd2f57c0df4e214452d213b') in 0.147674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 107
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Props/Textures/87067ebebdef4920373e1f828c92316b7ff3f151_2_500x500.jpeg
+  artifactKey: Guid(4502e9f9560660f41bd5eb813d16dbe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Textures/87067ebebdef4920373e1f828c92316b7ff3f151_2_500x500.jpeg using Guid(4502e9f9560660f41bd5eb813d16dbe0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a12fe85a2ac009fe9367b42d5c69ab43') in 0.085075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scenes/Manga Shader Scene.unity
+  artifactKey: Guid(206c4d8440b954d42ad22c98440cb371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/Manga Shader Scene.unity using Guid(206c4d8440b954d42ad22c98440cb371) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8fa9fcbf3f4f86124d968a7970db027') in 0.014471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
   path: Assets/Props/Materials/Gojo/HAIR 2.mat
-  artifactKey: Guid(158f8ad50c77d4945944582cea0da9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Materials/Gojo/HAIR 2.mat using Guid(158f8ad50c77d4945944582cea0da9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a60028b56ca9978d967ee1e05f5dce') in 0.100811 seconds
+  artifactKey: Guid(158f8ad50c77d4945944582cea0da9fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Materials/Gojo/HAIR 2.mat using Guid(158f8ad50c77d4945944582cea0da9fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f3c964f12c7728320d65c53f541f93cf') in 0.020497 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Props/Textures/Gojo/T_CP_050_00_Mask_N.tga
+  artifactKey: Guid(be4d781110db07c489c9e3616fa4d3c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Textures/Gojo/T_CP_050_00_Mask_N.tga using Guid(be4d781110db07c489c9e3616fa4d3c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2485caa9496db71db3146680e9bf23cf') in 0.040301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Props/Materials/Gojo/LASHES.mat
+  artifactKey: Guid(7d8f191783f9fa84aaabd1e961fce309) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Materials/Gojo/LASHES.mat using Guid(7d8f191783f9fa84aaabd1e961fce309) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55226e404450a369b3935947dcefed64') in 0.031131 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Props/Materials/Gojo/CLOTHES.mat
+  artifactKey: Guid(c35b75d0fb258064199aca288a065872) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Materials/Gojo/CLOTHES.mat using Guid(c35b75d0fb258064199aca288a065872) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bca84b9481295e03aec10d30cc0f992') in 0.023050 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Props/Materials/Gojo/FACE.mat
+  artifactKey: Guid(321f375a7168bde46a5c4b240899a1fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Materials/Gojo/FACE.mat using Guid(321f375a7168bde46a5c4b240899a1fc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '475164b50812681ef967d6caa4991482') in 0.017202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Props/Materials/Gojo/BAND.mat
+  artifactKey: Guid(3b90137489fcff5419ba45dfbe9e4c5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Materials/Gojo/BAND.mat using Guid(3b90137489fcff5419ba45dfbe9e4c5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '250e237aed49124c310bc329f50582a8') in 0.016823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Props/Textures/Normal.png
+  artifactKey: Guid(35b568babca560148bfa0784eacbb1a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Textures/Normal.png using Guid(35b568babca560148bfa0784eacbb1a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0adbb131f676c2056113db4a5264288f') in 0.044482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Props/Textures/Gojo/T_CP_050_00_Face_N.tga
+  artifactKey: Guid(34f55cf6786a7624aa795a7c68cf42a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Textures/Gojo/T_CP_050_00_Face_N.tga using Guid(34f55cf6786a7624aa795a7c68cf42a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86f4eee548f80a5ba9e455b1c6e13282') in 0.034359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 284.187338 seconds.
+  path: Assets/Props/MangaShader_Base.shader
+  artifactKey: Guid(050bada521d0dbf4987adfddc8b99b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/MangaShader_Base.shader using Guid(050bada521d0dbf4987adfddc8b99b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7a2658992d8894fa0927b16ee62fdc24') in 0.018638 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 166.543123 seconds.
+  path: Assets/Props/MangaShader_Base.shader
+  artifactKey: Guid(050bada521d0dbf4987adfddc8b99b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/MangaShader_Base.shader using Guid(050bada521d0dbf4987adfddc8b99b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1be1b4226d45dd15050e34c0c19bc192') in 0.029910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 27.952831 seconds.
+  path: Assets/Props/MangaShader_Base.shader
+  artifactKey: Guid(050bada521d0dbf4987adfddc8b99b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/MangaShader_Base.shader using Guid(050bada521d0dbf4987adfddc8b99b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df27588c436a65bdce0810af2bd81779') in 0.001159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 24.185254 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineBottomShadow.png
+  artifactKey: Guid(db66ea47c76423f4a881937d34495801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/Shared/TimelineBottomShadow.png using Guid(db66ea47c76423f4a881937d34495801) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e256eeca73bf9b9b97b9d87fcc7bad6b') in 0.017697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.020524 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineInfiniteTrackNoShadow.png
+  artifactKey: Guid(eae63adb172f1164db61a7f4bdfc3637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/DarkSkin/TimelineInfiniteTrackNoShadow.png using Guid(eae63adb172f1164db61a7f4bdfc3637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3606f65b7b98a65285e1387caee0685') in 0.012818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006810 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Shared/Unity.VisualScripting.Shared.Editor.asmdef
+  artifactKey: Guid(8461334e883c84d819a008a46143a5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Shared/Unity.VisualScripting.Shared.Editor.asmdef using Guid(8461334e883c84d819a008a46143a5ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92a03975655d6e2051097b5705ab3628') in 0.000492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.799053 seconds.
+  path: Assets/Props/MangaShader_Base.shader
+  artifactKey: Guid(050bada521d0dbf4987adfddc8b99b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/MangaShader_Base.shader using Guid(050bada521d0dbf4987adfddc8b99b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '22b9424d426e01a07fa05a0e97550561') in 0.014700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 13.773781 seconds.
+  path: Assets/Props/MangaShader_Base.shader
+  artifactKey: Guid(050bada521d0dbf4987adfddc8b99b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/MangaShader_Base.shader using Guid(050bada521d0dbf4987adfddc8b99b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0f925eac4f46a2bbf553f1522351839') in 0.001139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 65.591145 seconds.
+  path: Assets/Props/Manga Shader.shader
+  artifactKey: Guid(050bada521d0dbf4987adfddc8b99b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Manga Shader.shader using Guid(050bada521d0dbf4987adfddc8b99b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56a85b90954724eea1f0be51f8fb0b4') in 0.001520 seconds
+Number of updated asset objects reloaded before import = 1
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.813194 seconds.
+  path: Assets/Props/Manga Shader.shader
+  artifactKey: Guid(050bada521d0dbf4987adfddc8b99b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Manga Shader.shader using Guid(050bada521d0dbf4987adfddc8b99b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a1130d818804dad5aa12d1d3c7a04a9') in 0.015084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 373.827424 seconds.
+  path: Assets/Props/Manga Shader.shader
+  artifactKey: Guid(050bada521d0dbf4987adfddc8b99b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Manga Shader.shader using Guid(050bada521d0dbf4987adfddc8b99b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9ff1af042514aabe2596148b7f82041d') in 0.015375 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 48.117829 seconds.
+  path: Assets/Props/Manga Shader.shader
+  artifactKey: Guid(050bada521d0dbf4987adfddc8b99b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Manga Shader.shader using Guid(050bada521d0dbf4987adfddc8b99b2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'db2ea73f97073be33c34e18b21c0ecca') in 0.014755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 16.870140 seconds.
+  path: Assets/Props/Materials/Car Manga Mat.mat
+  artifactKey: Guid(73a0d2685c7c0ee49acb30a7a9a6c840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Materials/Car Manga Mat.mat using Guid(73a0d2685c7c0ee49acb30a7a9a6c840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba870b917aff05d6611af52d15356fd5') in 0.104911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.759979 seconds.
+  path: Assets/Props/Materials/Car Manga Mat.mat
+  artifactKey: Guid(73a0d2685c7c0ee49acb30a7a9a6c840) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Materials/Car Manga Mat.mat using Guid(73a0d2685c7c0ee49acb30a7a9a6c840) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a8c38a77ecace1a540f04f3b997cd4f') in 0.023372 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Props/Materials/Gojo/HANDS.mat
+  artifactKey: Guid(1ee50ea6025ac9c42be622b9b585673a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Materials/Gojo/HANDS.mat using Guid(1ee50ea6025ac9c42be622b9b585673a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b5cfc628f5d47fcf3e9c0ade052d6d0b') in 0.016333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Props/Materials/Gojo/HAIR 1 BLIND.mat
+  artifactKey: Guid(d4abdeeb8d9c44c45bfc9c73edd07ce3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Materials/Gojo/HAIR 1 BLIND.mat using Guid(d4abdeeb8d9c44c45bfc9c73edd07ce3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c056e19b56da7ff387536c2f581e902f') in 0.020809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Props/Materials/Gojo/EYEBROWS.mat
+  artifactKey: Guid(c496691110e38244cbf22c88b05e2b6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Materials/Gojo/EYEBROWS.mat using Guid(c496691110e38244cbf22c88b05e2b6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b645cc2c5644f51695a913c0568a6e91') in 0.020601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Props/Materials/Gojo/HAIR 2.mat
+  artifactKey: Guid(158f8ad50c77d4945944582cea0da9fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Materials/Gojo/HAIR 2.mat using Guid(158f8ad50c77d4945944582cea0da9fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86b1fc8b256dd1474cc29139d1de82d2') in 0.020023 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5d3da635e106c4cf6c483c743bc91c33') in 0.027123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Props/Materials/Gojo/EYES.mat
+  artifactKey: Guid(dbff7e64b399aaa4392f7aa18e9da670) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Materials/Gojo/EYES.mat using Guid(dbff7e64b399aaa4392f7aa18e9da670) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abd8ff6fcdbe30089fa3bb82e838a5be') in 0.028578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Props/Materials/Gojo/CLOTHES.mat
+  artifactKey: Guid(c35b75d0fb258064199aca288a065872) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Materials/Gojo/CLOTHES.mat using Guid(c35b75d0fb258064199aca288a065872) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc13f86ad8f55a9d318d5c3697b3324c') in 0.022158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Props/Materials/Gojo/HANDS.mat
-  artifactKey: Guid(1ee50ea6025ac9c42be622b9b585673a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Props/Materials/Gojo/HANDS.mat using Guid(1ee50ea6025ac9c42be622b9b585673a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8028772fd58a19cbd4815568f97db27b') in 0.015351 seconds
+  path: Assets/Props/Materials/Gojo/BAND.mat
+  artifactKey: Guid(3b90137489fcff5419ba45dfbe9e4c5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Props/Materials/Gojo/BAND.mat using Guid(3b90137489fcff5419ba45dfbe9e4c5d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '150e4ece34abc02ebf87cb6771ab3ff2') in 0.017442 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3
+Number of asset objects unloaded after import = 4
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server

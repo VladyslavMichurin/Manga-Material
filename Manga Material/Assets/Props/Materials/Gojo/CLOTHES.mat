@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: CLOTHES
-  m_Shader: {fileID: 4800000, guid: 7a6a34aa15065c04d848880486f8aee2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 050bada521d0dbf4987adfddc8b99b2e, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -84,15 +84,16 @@ Material:
     - _GlossMapScale: 1
     - _Glossiness: 0.140028
     - _GlossyReflections: 1
-    - _HighlightPercent: 0.095
+    - _HighlightPercent: 0.219
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
     - _OutlineNoise: 0
     - _OutlineNoiseAmmount: 1
-    - _OutlineThickness: 5
+    - _OutlineThickness: 2.5
     - _Parallax: 0.02
-    - _ShadowPercent: 0
+    - _ShadowPercent: 1
+    - _ShadowTexAngleAgj: 18
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -101,10 +102,10 @@ Material:
     - _ZWrite: 1
     - _test: 0
     m_Colors:
-    - _BaseColor: {r: 0, g: 0, b: 0, a: 1}
+    - _BaseColor: {r: 0.084905684, g: 0.084905684, b: 0.084905684, a: 1}
     - _Color: {r: 0.8, g: 0.8, b: 0.8, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
-    - _HighlightColor: {r: 0.36078432, g: 0.36078432, b: 0.36078432, a: 1}
+    - _HighlightColor: {r: 0.46274513, g: 0.46274513, b: 0.46274513, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []
