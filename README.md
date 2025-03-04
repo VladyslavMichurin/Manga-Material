@@ -1,4 +1,6 @@
 # Manga-Material
 Test
 
-![example skull](./Examples/Skulls.gif)# Gooch-Shading
+![gojo_sealed](./Examples/Gojo in prison realm (reference).jpg)
+![gojo_sealed](./Examples/Gojo in prison realm (reference).jpg)
+![gojo_sealed](./Examples/Gojo in prison realm (reference).jpg)
