@@ -7,8 +7,4 @@ With normal map for clothes
 Without normal map for clothes
 ![gojo rotates](./Examples/Gojo-rotates(without-normal-map).gif)
 
-# Manga panel example 
-![gojo sealed](./Examples/Gojo-in-prison-realm-(reference).jpg)
-![gojo sealed](./Examples/Gojo-in-prison-realm(dark-skeleton-version).jpg)
-![gojo sealed](./Examples/Gojo-in-prison-realm(light-skeleton-version).jpg)
 
